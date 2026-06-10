@@ -33,7 +33,7 @@ Adding a new project type = a new folder + a `registry.json` entry. No tooling c
 
 ## Licenses
 
-Vendored dependencies keep their own licenses (e.g. `threejs/vendor/` is [three.js](https://github.com/mrdoob/three.js), MIT — see `threejs/vendor/LICENSE`).
+This repo is MIT licensed (see `LICENSE`). Vendored dependencies keep their own licenses (e.g. `threejs/vendor/` is [three.js](https://github.com/mrdoob/three.js), MIT — see `threejs/vendor/LICENSE`).
 
 ## Community starters (future)
 

@@ -1,0 +1,9 @@
+{
+  "note": "Machine-readable index of starter scaffolds. Templates reference a starter as (repo, commit SHA, path) — pin the SHA, never a branch. External community starters are future entries with their own repo field.",
+  "starters": [
+    {
+      "path": "threejs",
+      "manifest": "threejs/starter.json"
+    }
+  ]
+}

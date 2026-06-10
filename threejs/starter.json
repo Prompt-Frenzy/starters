@@ -1,0 +1,12 @@
+{
+  "name": "threejs",
+  "displayName": "Three.js scene",
+  "description": "Single-file Three.js scaffold: pinned vendored modules (r182), resize handling, requestAnimationFrame render loop, and a marked region where the model writes the scene.",
+  "entry": "index.html",
+  "version": 1,
+  "engine": {
+    "three": "r182",
+    "vendored": ["vendor/three.module.js", "vendor/three.core.js"]
+  },
+  "promptInstructions": "You are given the complete contents of index.html below. Return the COMPLETE file with the region between '=== YOUR SCENE HERE ===' and '=== END YOUR SCENE ===' replaced by your scene (the placeholder cube is an example — remove it). Do not modify the import map, the renderer setup, the resize handler, or the render loop. Do not load any external resources: only the vendored 'three' module is available (no three/addons, no CDN, no textures from URLs — generate textures procedurally if needed). Drive all animation from the timestamp t passed to update(t); do not create your own requestAnimationFrame loop or use setInterval."
+}
